@@ -1,6 +1,5 @@
 <template>
     <Main :customers="customers"/>
-    <!-- <loader v-if="isLoading"/> -->
 
 </template>
 
