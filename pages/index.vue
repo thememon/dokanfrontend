@@ -1,8 +1,6 @@
 <template>
-  <div  class="container">
-    <Main v-if="customers && customers.length > 0" :customers="customers"/>
+    <Main :customers="customers"/>
     <!-- <loader v-if="isLoading"/> -->
-  </div>
 
 </template>
 

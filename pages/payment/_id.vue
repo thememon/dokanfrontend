@@ -85,10 +85,3 @@ export default {
         },
     }
 }
-</script>
-
-<style>
-.my-btn {
-    margin-bottom: -20px;
-}
-</style>

@@ -18,15 +18,38 @@ export default {
       { name: 'format-detection', content: 'telephone=no' }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+      { rel: 'icon', type: 'image/x-icon', href: 'assets/images/favicon.ico' },
       {
         rel: 'stylesheet',
-        href: 'https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css'
+        href: 'assets/css/bootstrap.min.css'
       },
       {
         rel: 'stylesheet',
-        href: '/css/style.css'
-      }
+        href: 'assets/css/icons.css'
+      },
+      {
+        rel: 'stylesheet',
+        href: 'assets/css/style.css'
+      },
+    ],
+    script: [
+      { src: 'assets/js/jquery.min.js', type: "text/javascript", body: true, ssr: false },
+      { src: 'assets/js/bootstrap.bundle.min.js', type: "text/javascript", body: true, ssr: false },
+      { src: 'assets/js/modernizr.min.js',type: "text/javascript", body: true, ssr: false },
+      { src: 'assets/js/detect.js',type: "text/javascript", body: true, ssr: false },
+      { src: 'assets/js/fastclick.js',type: "text/javascript", body: true, ssr: false },
+      { src: 'assets/js/jquery.slimscroll.js',type: "text/javascript", async: true },
+      { src: 'assets/js/waves.js',type: "text/javascript", body: true, ssr: false },
+      { src: 'assets/js/jquery.nicescroll.js',type: "text/javascript", body: true, ssr: false },
+      { src: 'assets/js/jquery.blockUI.js',type: "text/javascript", body: true, ssr: false },
+      { src: 'assets/js/jquery.scrollTo.min.js',type: "text/javascript", body: true, ssr: false },
+      { src: 'assets/pages/dashboard.int.js',type: "text/javascript", body: true, ssr: false },
+      { src: 'assets/js/app.js',type: "text/javascript", body: true, ssr: false },
+
+
+        // <script src="../plugins/morris/morris.min.js"></script>
+        // <script src="../plugins/raphael/raphael.min.js"></script>
+
     ]
   },
 

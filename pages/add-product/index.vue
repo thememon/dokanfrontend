@@ -101,8 +101,3 @@ export default {
 }
 </script>
 
-<style>
-  .form-group {
-    margin-bottom: 18px;
-  }
-</style>
